@@ -20,7 +20,7 @@ def main():
     except serial.SerialException:
         ser = serial.Serial('/dev/ttyUSB0')
 
-    STDSCR.addstr("To exit the program, press CTRL + C in   order to quit the process. ")
+    STDSCR.addstr("To exit the program, press CTRL + C in order to quit the process. ")
     #To change keybindings for the movement change 
     #the keys shown here. You may need to refer to the 
     #python curses documentation which can be reached at    https://docs.python.org/3/library/curses.html for  non-ascii keys. 

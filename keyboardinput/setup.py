@@ -23,7 +23,7 @@ setup(
     install_requires=['pyserial'],  # Optional
     entry_points={  # Optional
         'console_scripts': [
-            'keyboardinput = keyboardinput.keyboardinput:main',
+            'keyboardinput = keyboardinput:main',
         ],
     },
 )
